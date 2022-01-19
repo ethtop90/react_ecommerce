@@ -30,6 +30,7 @@ function App() {
           <Route path="checkout" element={<Checkout />} />
           <Route path="checkout/success" element={<Confirmation />} />
           {/* <Route path="checkout/failed" element={<Fail />} /> */}
+          {/* <Route path="checkout/vic" element={<Victory />} /> */}
         </Routes>
         <CartMenu />
         <Footer />
